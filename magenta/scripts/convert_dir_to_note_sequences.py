@@ -223,6 +223,7 @@ def convert_directory(root_dir, output_file, recursive=False):
 
 
 def main(unused_argv):
+  print('[SGLog]')
   tf.logging.set_verbosity(FLAGS.log)
 
   if not FLAGS.input_dir:
