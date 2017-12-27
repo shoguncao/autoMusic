@@ -587,6 +587,7 @@ def extract_melodies(quantized_sequence,
         (derived from its time signature) is not an integer number of time
         steps.
   """
+  print('[SGLog]quantized_sequence.filename: %s' % quantized_sequence.filename)
   sequences_lib.assert_is_relative_quantized_sequence(quantized_sequence)
 
   # TODO(danabo): Convert `ignore_polyphonic_notes` into a float which controls
