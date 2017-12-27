@@ -134,6 +134,7 @@ def convert_midi(root_dir, sub_dir, full_file_path):
     return None
   sequence.collection_name = os.path.basename(root_dir)
   sequence.filename = os.path.join(sub_dir, os.path.basename(full_file_path))
+  print('[SGLog]sequence.filename: %s' % sequence.filename)
   sequence.id = note_sequence_io.generate_note_sequence_id(
       sequence.filename, sequence.collection_name, 'midi')
   tf.logging.info('Converted MIDI file %s.', full_file_path)
@@ -223,7 +224,6 @@ def convert_directory(root_dir, output_file, recursive=False):
 
 
 def main(unused_argv):
-  print('[SGLog]')
   tf.logging.set_verbosity(FLAGS.log)
 
   if not FLAGS.input_dir:
