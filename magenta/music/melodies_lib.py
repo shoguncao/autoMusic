@@ -616,6 +616,8 @@ def extract_melodies(quantized_sequence,
     # If any notes start at the same time, only one is kept.
     while 1:
       melody = Melody()
+      melody.filename = quantized_sequence.filename
+      print('[SGLog]melody.filename: %s' % melody.filename)
       try:
         melody.from_quantized_sequence(
             quantized_sequence,
