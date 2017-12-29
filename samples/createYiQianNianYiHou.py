@@ -45,6 +45,69 @@ add_instrument_note(instrument=melody, note_name='D3', range=1)
 add_instrument_note(instrument=melody, note_name='C3', range=1)
 add_instrument_note(instrument=melody, note_name='B2', range=2)
 
+# 放任无奈，淹没尘埃
+add_instrument_note(instrument=melody, note_name='C3', range=2)
+add_instrument_note(instrument=melody, note_name='B2', range=1)
+add_instrument_note(instrument=melody, note_name='C3', range=2)
+add_instrument_note(instrument=melody, note_name='E3', range=3)
+add_instrument_note(instrument=melody, note_name='B2', range=2)
+add_instrument_note(instrument=melody, note_name='A2', range=1)
+add_instrument_note(instrument=melody, note_name='B2', range=2)
+add_instrument_note(instrument=melody, note_name='G2', range=3)
+
+# 我在废墟之中守着你走来，哦
+add_instrument_note(instrument=melody, note_name='A2', range=1)
+add_instrument_note(instrument=melody, note_name='A2', range=1)
+add_instrument_note(instrument=melody, note_name='B2', range=1)
+add_instrument_note(instrument=melody, note_name='C3', range=1)
+add_instrument_note(instrument=melody, note_name='D3', range=1)
+add_instrument_note(instrument=melody, note_name='C3', range=1)
+add_instrument_note(instrument=melody, note_name='D3', range=1)
+add_instrument_note(instrument=melody, note_name='F3', range=1)
+add_instrument_note(instrument=melody, note_name='E3', range=2)
+add_instrument_note(instrument=melody, note_name='D3', range=2)
+add_instrument_note(instrument=melody, note_name='D3', range=2)
+add_instrument_note(instrument=melody, note_name='C3', range=2)
+
+# tttttttttttttttttttttt
+# 我的泪光承载不了哦
+add_instrument_note(instrument=melody, note_name='C3', range=2)
+add_instrument_note(instrument=melody, note_name='B2', range=1)
+add_instrument_note(instrument=melody, note_name='C3', range=2)
+add_instrument_note(instrument=melody, note_name='E3', range=3)
+add_instrument_note(instrument=melody, note_name='B2', range=2)
+add_instrument_note(instrument=melody, note_name='A2', range=1)
+add_instrument_note(instrument=melody, note_name='B2', range=3)
+add_instrument_note(instrument=melody, note_name='G2', range=1)
+add_instrument_note(instrument=melody, note_name='A2', range=2)
+
+# 所有一切你要的
+add_instrument_note(instrument=melody, note_name='C3', range=7)
+add_instrument_note(instrument=melody, note_name='C3', range=1)
+add_instrument_note(instrument=melody, note_name='C3', range=1)
+add_instrument_note(instrument=melody, note_name='C3', range=1)
+add_instrument_note(instrument=melody, note_name='D3', range=1)
+add_instrument_note(instrument=melody, note_name='E3', range=2)
+add_instrument_note(instrument=melody, note_name='D3', range=1)
+add_instrument_note(instrument=melody, note_name='C3', range=3)
+
+# 爱，因为在
+add_instrument_note(instrument=melody, note_name='D3', range=6)
+add_instrument_note(instrument=melody, note_name='0', range=2)
+add_instrument_note(instrument=melody, note_name='B2', range=1)
+add_instrument_note(instrument=melody, note_name='C3', range=2)
+add_instrument_note(instrument=melody, note_name='D3', range=3)
+
+# 一千年以后，世界
+add_instrument_note(instrument=melody, note_name='E3', range=2)
+add_instrument_note(instrument=melody, note_name='D3', range=1)
+add_instrument_note(instrument=melody, note_name='C3', range=2)
+add_instrument_note(instrument=melody, note_name='G2', range=2)
+add_instrument_note(instrument=melody, note_name='D3', range=5)
+add_instrument_note(instrument=melody, note_name='0', range=2)
+add_instrument_note(instrument=melody, note_name='E3', range=1)
+add_instrument_note(instrument=melody, note_name='D3', range=1)
+
 notes = change_notes_tempo(melody.notes, 15.0/initial_tempo)
 melody.notes = notes
 
