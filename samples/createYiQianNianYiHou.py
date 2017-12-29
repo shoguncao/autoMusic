@@ -148,6 +148,42 @@ add_instrument_note(instrument=melody, note_name='D3', range=1)
 add_instrument_note(instrument=melody, note_name='E3', range=1)
 add_instrument_note(instrument=melody, note_name='D3', range=1)
 
+# 都遗忘了我，那是
+add_instrument_note(instrument=melody, note_name='C3', range=2)
+add_instrument_note(instrument=melody, note_name='B2', range=1)
+add_instrument_note(instrument=melody, note_name='A2', range=2)
+add_instrument_note(instrument=melody, note_name='D2', range=2)
+add_instrument_note(instrument=melody, note_name='B2', range=5)
+add_instrument_note(instrument=melody, note_name='0', range=2)
+add_instrument_note(instrument=melody, note_name='C3', range=1)
+add_instrument_note(instrument=melody, note_name='B2', range=1)
+
+# 红色黄昏的沙漠，能有
+add_instrument_note(instrument=melody, note_name='A2', range=2)
+add_instrument_note(instrument=melody, note_name='G2', range=1)
+add_instrument_note(instrument=melody, note_name='A2', range=2)
+add_instrument_note(instrument=melody, note_name='C3', range=2)
+add_instrument_note(instrument=melody, note_name='G2', range=2)
+add_instrument_note(instrument=melody, note_name='D3', range=2)
+add_instrument_note(instrument=melody, note_name='C3', range=3)
+add_instrument_note(instrument=melody, note_name='E3', range=1)
+add_instrument_note(instrument=melody, note_name='E3', range=1)
+
+# 谁，解开刹那前年的寂
+add_instrument_note(instrument=melody, note_name='F3', range=6)
+add_instrument_note(instrument=melody, note_name='C3', range=1)
+add_instrument_note(instrument=melody, note_name='D3', range=1)
+add_instrument_note(instrument=melody, note_name='E3', range=1)
+add_instrument_note(instrument=melody, note_name='D3', range=1)
+add_instrument_note(instrument=melody, note_name='C3', range=2)
+add_instrument_note(instrument=melody, note_name='E3', range=1)
+add_instrument_note(instrument=melody, note_name='C3', range=1)
+add_instrument_note(instrument=melody, note_name='G2', range=3)
+
+# 寞
+add_instrument_note(instrument=melody, note_name='C3', range=11)
+add_instrument_note(instrument=melody, note_name='0', range=4)
+
 notes = change_notes_tempo(melody.notes, 15.0/initial_tempo)
 melody.notes = notes
 
