@@ -318,7 +318,7 @@ add_instrument_note(instrument=melody, note_name='C4', range=4)
 add_instrument_note(instrument=melody, note_name='E3', range=2)
 add_instrument_note(instrument=melody, note_name='E3', range=4)
 add_instrument_note(instrument=melody, note_name='A3', range=4)
-add_instrument_note(instrument=melody, note_name='A3', range=12)
+add_instrument_note(instrument=melody, note_name='G3', range=12)
 
 # 我们小
 add_instrument_note(instrument=melody, note_name='C3', range=2)
