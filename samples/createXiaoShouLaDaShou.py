@@ -290,7 +290,28 @@ add_instrument_note(instrument=melody, note_name='C3', range=4)
 add_instrument_note(instrument=melody, note_name='D3', range=4)
 add_instrument_note(instrument=melody, note_name='C3', range=18)
 
+# 给你我的手
+add_instrument_note(instrument=melody, note_name='C3', range=6)
+add_instrument_note(instrument=melody, note_name='E3', range=2)
+add_instrument_note(instrument=melody, note_name='F3', range=2)
+add_instrument_note(instrument=melody, note_name='E3', range=2)
+add_instrument_note(instrument=melody, note_name='F3', range=2)
+add_instrument_note(instrument=melody, note_name='G3', range=6)
 
+# 像温柔野兽
+add_instrument_note(instrument=melody, note_name='0', range=2)
+add_instrument_note(instrument=melody, note_name='E3', range=2)
+add_instrument_note(instrument=melody, note_name='F3', range=2)
+add_instrument_note(instrument=melody, note_name='E3', range=2)
+add_instrument_note(instrument=melody, note_name='F3', range=2)
+add_instrument_note(instrument=melody, note_name='G3', range=8)
+
+# 我们一直就
+add_instrument_note(instrument=melody, note_name='G3', range=2)
+add_instrument_note(instrument=melody, note_name='A3', range=2)
+add_instrument_note(instrument=melody, note_name='G3', range=2)
+add_instrument_note(instrument=melody, note_name='A3', range=2)
+add_instrument_note(instrument=melody, note_name='G3', range=2)
 
 notes = change_notes_tempo(melody.notes, 15.0/initial_tempo)
 melody.notes = notes
