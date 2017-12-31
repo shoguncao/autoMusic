@@ -205,6 +205,93 @@ add_instrument_note(instrument=melody, note_name='G3', range=2)
 add_instrument_note(instrument=melody, note_name='A3', range=2)
 add_instrument_note(instrument=melody, note_name='B3', range=2)
 
+# 草原的辽阔
+add_instrument_note(instrument=melody, note_name='C4', range=4)
+add_instrument_note(instrument=melody, note_name='E3', range=2)
+add_instrument_note(instrument=melody, note_name='E3', range=4)
+add_instrument_note(instrument=melody, note_name='A3', range=4)
+add_instrument_note(instrument=melody, note_name='G3', range=12)
+
+# 我们小
+add_instrument_note(instrument=melody, note_name='C3', range=2)
+add_instrument_note(instrument=melody, note_name='D3', range=2)
+add_instrument_note(instrument=melody, note_name='C3', range=2)
+
+# 手拉大手
+add_instrument_note(instrument=melody, note_name='F3', range=4)
+add_instrument_note(instrument=melody, note_name='E3', range=2)
+add_instrument_note(instrument=melody, note_name='D3', range=4)
+add_instrument_note(instrument=melody, note_name='C3', range=6)
+
+# 一起郊游今
+add_instrument_note(instrument=melody, note_name='F3', range=2)
+add_instrument_note(instrument=melody, note_name='E3', range=4)
+add_instrument_note(instrument=melody, note_name='D3', range=4)
+add_instrument_note(instrument=melody, note_name='C3', range=4)
+add_instrument_note(instrument=melody, note_name='C3', range=2)
+
+# 天别想太多
+add_instrument_note(instrument=melody, note_name='D3', range=4)
+add_instrument_note(instrument=melody, note_name='A2', range=2)
+add_instrument_note(instrument=melody, note_name='C3', range=4)
+add_instrument_note(instrument=melody, note_name='E3', range=4)
+add_instrument_note(instrument=melody, note_name='G3', range=8)
+
+# 你是我的梦
+add_instrument_note(instrument=melody, note_name='D3', range=2)
+add_instrument_note(instrument=melody, note_name='E3', range=2)
+add_instrument_note(instrument=melody, note_name='D3', range=2)
+add_instrument_note(instrument=melody, note_name='E3', range=2)
+add_instrument_note(instrument=melody, note_name='G3', range=8)
+
+# 像北方的风
+add_instrument_note(instrument=melody, note_name='E3', range=2)
+add_instrument_note(instrument=melody, note_name='F3', range=2)
+add_instrument_note(instrument=melody, note_name='E3', range=2)
+add_instrument_note(instrument=melody, note_name='F3', range=2)
+add_instrument_note(instrument=melody, note_name='G3', range=8)
+
+# 却正南方暖
+add_instrument_note(instrument=melody, note_name='G3', range=2)
+add_instrument_note(instrument=melody, note_name='A3', range=2)
+add_instrument_note(instrument=melody, note_name='G3', range=2)
+add_instrument_note(instrument=melody, note_name='A3', range=2)
+add_instrument_note(instrument=melody, note_name='B3', range=2)
+
+# 洋洋的哀愁
+add_instrument_note(instrument=melody, note_name='C4', range=4)
+add_instrument_note(instrument=melody, note_name='E3', range=2)
+add_instrument_note(instrument=melody, note_name='E3', range=4)
+add_instrument_note(instrument=melody, note_name='A3', range=4)
+add_instrument_note(instrument=melody, note_name='G3', range=12)
+
+# 我们小
+add_instrument_note(instrument=melody, note_name='C3', range=2)
+add_instrument_note(instrument=melody, note_name='D3', range=2)
+add_instrument_note(instrument=melody, note_name='C3', range=2)
+
+# 手拉大手
+add_instrument_note(instrument=melody, note_name='F3', range=4)
+add_instrument_note(instrument=melody, note_name='E3', range=2)
+add_instrument_note(instrument=melody, note_name='D3', range=4)
+add_instrument_note(instrument=melody, note_name='C3', range=6)
+
+# 今天加油向
+add_instrument_note(instrument=melody, note_name='F3', range=2)
+add_instrument_note(instrument=melody, note_name='E3', range=4)
+add_instrument_note(instrument=melody, note_name='D3', range=4)
+add_instrument_note(instrument=melody, note_name='C3', range=4)
+add_instrument_note(instrument=melody, note_name='C3', range=2)
+
+# 昨天挥挥手
+add_instrument_note(instrument=melody, note_name='D3', range=4)
+add_instrument_note(instrument=melody, note_name='A2', range=2)
+add_instrument_note(instrument=melody, note_name='C3', range=4)
+add_instrument_note(instrument=melody, note_name='D3', range=4)
+add_instrument_note(instrument=melody, note_name='C3', range=18)
+
+
+
 notes = change_notes_tempo(melody.notes, 15.0/initial_tempo)
 melody.notes = notes
 
